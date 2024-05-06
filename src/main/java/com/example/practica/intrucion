@@ -1,0 +1,38 @@
+Registro de Proyecto Spring versionado con Git y GitHub
+
+1. Creación del Proyecto Spring de Consola
+
+Cree un nuevo proyecto Spring de consola que genere un menú de tablas de multiplicar con las siguientes opciones:
+Mostrar una tabla.
+Mostrar tablas del 2 al 5.
+Salir.
+2. Inicialización del Repositorio Git
+
+Desde la terminal, navegue hasta el directorio del proyecto.
+Inicialice un repositorio Git utilizando el comando git init.
+3. Implementación de las Opciones del Menú
+
+Opción 1: Mostrar una tabla.
+Implemente la lógica para mostrar la tabla de multiplicar seleccionada.
+Realice una confirmación al repositorio: git commit -m "Implementada opción de mostrar una tabla"
+Opción 2: Mostrar tablas del 2 al 5.
+Implemente la lógica para mostrar las tablas de multiplicar del 2 al 5.
+Realice una confirmación al repositorio: git commit -m "Implementada opción de mostrar tablas del 2 al 5"
+Opción 3: Salir.
+Implemente la lógica para salir del programa.
+Realice una confirmación al repositorio: git commit -m "Implementada opción de salir del programa"
+4. Saludo Personalizado
+
+Modifique el programa para solicitar el nombre del usuario y saludarlo por consultar la tabla de multiplicar.
+Realice una última confirmación al repositorio: git commit -m "Agregado saludo personalizado"
+5. Verificación del Estado del Repositorio
+
+Ejecute git status para verificar el estado del repositorio.
+Ejecute git log para revisar el historial de confirmaciones.
+Registre los resultados en el documento de entrega.
+6. Envío del Proyecto a GitHub
+
+Cree un repositorio en GitHub.
+Agregue el repositorio remoto a su proyecto local: git remote add origin <URL_del_repositorio_GitHub>
+Envíe el proyecto al repositorio en GitHub: git push -u origin master
+Agregue la URL del repositorio de GitHub al documento de entrega.
