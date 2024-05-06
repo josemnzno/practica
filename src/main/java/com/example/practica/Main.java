@@ -21,10 +21,13 @@ public class Main {
                     showMultiplicationTable(scanner);
                     break;
                 case 2:
+                    showMultiplicationTables();
                     break;
                 case 3:
+                    System.out.println("¡Hasta luego!");
                     break;
                 default:
+                    System.out.println("Opcion invalida. Intentelo de nuevo.");
                     break;
             }
         }
@@ -40,5 +43,13 @@ public class Main {
         }
     }
 
-
+    public static void showMultiplicationTables() {
+        for (int i = 2; i <= 5; i++) {
+            System.out.println("Tabla de Multiplicar del " + i + ":");
+            for (int j = 1; j <= 10; j++) {
+                System.out.println(i + " x " + j + " = " + (i * j));
+            }
+            System.out.println();
+        }
+    }
 }
